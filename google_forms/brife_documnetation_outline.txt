@@ -1,0 +1,9 @@
+
+Brief Documentation Outline
+
+Approach:
+
+1. Setup: Installed necessary libraries and set up a Django project(using terminal install django, selenium).
+1. Selenium Script: Created a script to automate form submission, capture a screenshot, and send an email.
+3. Email Configuration: Configured Django to use Gmail’s SMTP server for sending emails.
+4. Execution: Ran the script to complete the assignment.
