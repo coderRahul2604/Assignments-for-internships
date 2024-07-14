@@ -1,0 +1,10 @@
+python Extention or modules required to install before running script
+
+django: For setting up Django environment to use Django's email functionality.
+os: For setting the Django settings module and managing environment variables.
+time: For adding delays to synchronize with webpage loading.
+selenium: For automating browser actions to fill and submit the Google Form.
+webdriver_manager: For dynamically managing Chrome WebDriver.
+django.core.mail.EmailMessage: For creating and sending email notifications.
+django.conf.settings: For accessing Django project settings.
+dotenv: For loading environment variables from a .env file.
