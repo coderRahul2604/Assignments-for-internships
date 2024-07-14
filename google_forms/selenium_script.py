@@ -71,9 +71,7 @@ def send_email(screenshot_path):
     subject = 'Python (Selenium) Assignment - Rahul Thorat'
     body = 'Please find attached the screenshot of the confirmation page.'
     from_email = settings.DEFAULT_FROM_EMAIL
-    to_email = ['tech@themedius.ai']
-    cc_email = ['hr@themedius.ai']
-    
+    to_email = ['sender@gmail.com'] # Replace with sender Mail
     email = EmailMessage(subject, body, from_email, to_email, cc=cc_email)
     email.attach_file(screenshot_path)
     email.send()
